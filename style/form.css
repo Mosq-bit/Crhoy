@@ -24,9 +24,9 @@ label {
     color: #555;
 }
 
-input[type="text"],
-input[type="email"],
-input[type="tel"] {
+.form-group__input[type="text"],
+.form-group__input[type="email"],
+.form-group__input[type="tel"] {
     width: 100%;
     padding: 10px;
     border: 1px solid #ddd;
@@ -35,11 +35,12 @@ input[type="tel"] {
     font-size: 16px;
 }
 
-input:focus {
+.form-group__input:focus {
     outline: none;
     border-color: #4a90e2;
     box-shadow: 0 0 5px rgba(74, 144, 226, 0.5);
 }
+
 
 .form__btn {
     width: 100%;
