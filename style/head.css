@@ -1,0 +1,156 @@
+.head__section {
+    margin-top: 15px;
+    padding: 0 15px;
+}
+
+.head__wrapper {
+    margin: 0 auto;
+    max-width: 890px;
+    width: 100%;
+}
+
+.head__logo {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.head__subtitle {
+    padding: 0 0 20px 0;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid var(--red);
+    flex-wrap: wrap;
+}
+
+.head__subtitle a {
+    text-transform: uppercase;
+    font-size: 20px;
+    color: var(--red);
+    margin-right: 10px;
+}
+
+.head__subtitle img {
+    width: 16px;
+    height: 16px;
+}
+
+.head__title {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.head__title p {
+    font-size: 1.2em;
+    color: #888;
+}
+
+.head__title h1 {
+    margin-top: 20px;
+    font-size: 2.1rem;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.head__content {
+    margin-top: 20px;
+}
+
+.head__content-list {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    list-style-type: disc;
+}
+
+.head__content-item {
+    color: #444;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.head__content-pic {
+    margin-top: 40px;
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+}
+
+.head__content-descr {
+    margin-top: 40px;
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+/* Адаптивные стили */
+@media (max-width: 992px) {
+    .head__wrapper {
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+    
+    .head__subtitle a {
+        font-size: 18px;
+    }
+    
+    .head__title h1 {
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .head__section {
+        margin-top: 10px;
+    }
+    
+    .head__subtitle {
+        padding-bottom: 15px;
+    }
+    
+    .head__subtitle a {
+        font-size: 16px;
+    }
+    
+    .head__title h1 {
+        font-size: 1.5rem;
+        margin-top: 15px;
+    }
+    
+    .head__title p {
+        font-size: 1em;
+    }
+    
+    .head__content-item {
+        font-size: 14px;
+    }
+    
+    .head__content-descr {
+        font-size: 15px;
+        margin-top: 30px;
+    }
+    
+    .head__content-pic {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 576px) {
+    .head__subtitle {
+        align-items: flex-start;
+    }
+    
+    .head__subtitle a {
+        margin-bottom: 5px;
+    }
+    
+    .head__title h1 {
+        font-size: 1.3rem;
+    }
+    
+    .head__content-list {
+        padding-left: 15px;
+    }
+}
