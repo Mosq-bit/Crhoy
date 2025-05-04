@@ -91,7 +91,9 @@
         margin: 0 auto;
         padding: 0 20px;
     }
-    
+      .head__subtitle{
+        margin-top: 20px;
+    }
     .head__subtitle a {
         font-size: 18px;
     }
