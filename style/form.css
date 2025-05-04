@@ -41,7 +41,7 @@ input:focus {
     box-shadow: 0 0 5px rgba(74, 144, 226, 0.5);
 }
 
-button {
+.form__btn {
     width: 100%;
     padding: 12px;
     background-color: var(--red);
@@ -53,7 +53,7 @@ button {
     transition: all 0.3s ease-in;
 }
 
-button:hover {
+.form__btn:hover {
     background-color: #000000;
 }
 
