@@ -49,6 +49,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    text-decoration: none;
 
 }
 
@@ -80,6 +81,11 @@
 }
 
 @media (max-width:768px) {
+    .header__section{
+        top: 0;
+        width: 100%;
+        position: fixed;
+    }
     .container {
         padding: 0 15px 0 0;
     }
